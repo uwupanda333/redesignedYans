@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        .box {
+            display: flex;
+            align-items:center;
+        }
+
+        .column {
+            flex-direction: column;
+            float: left;
+            flex: 1;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .address {
+            font-family: sans-serif;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .orderButton {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 32px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: #C75260;
+            border-radius: 20px;
+            box-shadow: 2px 4px #888888;
+            display: inline-block;
+        }
+
+        .orderButton:hover{
+            background-color: #8B3943;
+        }
+        
+        .description {
+            font-family: sans-serif;
+            font-size: 24px;
+            width:876px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            color: black;
+            display: inline-block;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 40px;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .topnav a:hover {
+            text-decoration: underline;
+        }
+
+        .topnav a.active {
+            text-decoration: underline;
+        }
+
+        .topnav .icon {
+            display: none;
+        }
+
+        .welcome {
+            font-family: tamil;
+            font-size: 32px;
+        }
+
+        #wrapper {
+            overflow-x: auto;
+        }
+
+        @media only screen and (max-width:320px){
+            .description {
+                font-size: 16px;
+            }
+        }
+
+        @media only screen and (min-width:321px) and (max-width:768px){
+            
+        }
+    </style>
+    <title>Personas and Storyboard Website</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="my assignment write up">
+</head>
+    <body>
+        <div id="wrapper">
+            <div class="box">
+                <img src="Yan'sCuisine.png" width="160" height="160" style="margin-left: 50px; margin-top: 25px; float:left; display: inline-block; ">
+                <span class="topnav" id="myTopnav" style="margin-left: 15px; float:left;">
+                    <a href="#home" class="active"">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#hours">Hours</a>
+                    <a href="#Contact">Contact</a>
+                </span>
+                <button class="orderButton" style="margin-left: 200px">Order online!</button>
+            </div>
+        </div>
+
+        <div>
+            <br>
+            <hr color="#E0E0E0"/>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <img src="chinese1.jpeg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="chinese2.jpeg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="chinese3.jpeg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="chinese4.jpeg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="chinese5.jpeg" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+
+        <p class="address">
+            83 Benevolent St., Providence, RI 02906
+            <br>
+            (401) 751 - 8888
+        </p>
+
+        <div style="width:800px; margin:0 auto;">
+            <p class="welcome">
+                Welcome to Yan's Cuisine - Providence
+            </p>
+            <p class="description">
+                Yan's Cuisine Chinese Restaurant offers healthy and delicious tasting Chinese cuisine in Providence, RI. Yan's Cuisine's convenient location and affordable prices make our restaurant a natural choice for dine-in, take-out meals in the Providence community. Our restaurant is known for its variety in taste and high quality fresh ingredients. Come and experience our friendly atmosphere and excellent service.
+            </p>
+        </div>
+
+        <div>
+            <br>
+            <hr color="#E0E0E0"/>
+        </div>
+        
+        <div id="wrapper">
+            <div class="box">
+                <div style="margin-left:50px">
+                    <p style="font-family: sans-serif"><b>Yan's Cuisine</b><br>83 Benevolent St., Providence, RI 02906<br>Phone: (401) 751 - 8888</p>
+                </div>
+                <div style="margin-left:auto; margin-right:auto;">
+                    <p style="font-family: sans-serif"><b>Hours of operation:</b><br>Mon - Sat: 11am - 9:15pm<br>Sunday: 12pm - 9:30pm</p>
+                </div>
+                <img style="width: 285px; height:45px; margin-right:50px;" src="CardPayment.png">
+            </div>
+        </div>
+    </body>
+</html><!doctype html>
+<html>
+<head>
+    <style>
+        .box {
+            display: flex;
+            align-items:center;
+        }
+
+        .column {
+            flex-direction: column;
+            float: left;
+            flex: 1;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .address {
+            font-family: sans-serif;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .orderButton {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 32px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: #C75260;
+            border-radius: 20px;
+            box-shadow: 2px 4px #888888;
+            display: inline-block;
+        }
+
+        .orderButton:hover{
+            background-color: #8B3943;
+        }
+        
+        .description {
+            font-family: sans-serif;
+            font-size: 24px;
+            width:876px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            color: black;
+            display: inline-block;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 40px;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .topnav a:hover {
+            text-decoration: underline;
+        }
+
+        .topnav a.active {
+            text-decoration: underline;
+        }
+
+        .topnav .icon {
+            display: none;
+        }
+
+        .welcome {
+            font-family: tamil;
+            font-size: 32px;
+        }
+
+        #wrapper {
+            overflow-x: auto;
+        }
+
+        @media only screen and (max-width:320px){
+            .description {
+                font-size: 16px;
+            }
+        }
+
+        @media only screen and (min-width:321px) and (max-width:768px){
+            
+        }
+    </style>
+    <title>Personas and Storyboard Website</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="my assignment write up">
+</head>
+    <body>
+        <div id="wrapper">
+            <div class="box">
+                <img src="Yan'sCuisine.png" width="160" height="160" style="margin-left: 50px; margin-top: 25px; float:left; display: inline-block; ">
+                <span class="topnav" id="myTopnav" style="margin-left: 15px; float:left;">
+                    <a href="#home" class="active"">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#hours">Hours</a>
+                    <a href="#Contact">Contact</a>
+                </span>
+                <button class="orderButton" style="margin-left: 200px">Order online!</button>
+            </div>
+        </div>
+
+        <div>
+            <br>
+            <hr color="#E0E0E0"/>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <img src="chinese1.jpeg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="chinese2.jpeg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="chinese3.jpeg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="chinese4.jpeg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="chinese5.jpeg" alt="Mountains" style="width:100%">
+            </div>
+        </div>
+
+        <p class="address">
+            83 Benevolent St., Providence, RI 02906
+            <br>
+            (401) 751 - 8888
+        </p>
+
+        <div style="width:800px; margin:0 auto;">
+            <p class="welcome">
+                Welcome to Yan's Cuisine - Providence
+            </p>
+            <p class="description">
+                Yan's Cuisine Chinese Restaurant offers healthy and delicious tasting Chinese cuisine in Providence, RI. Yan's Cuisine's convenient location and affordable prices make our restaurant a natural choice for dine-in, take-out meals in the Providence community. Our restaurant is known for its variety in taste and high quality fresh ingredients. Come and experience our friendly atmosphere and excellent service.
+            </p>
+        </div>
+
+        <div>
+            <br>
+            <hr color="#E0E0E0"/>
+        </div>
+        
+        <div id="wrapper">
+            <div class="box">
+                <div style="margin-left:50px">
+                    <p style="font-family: sans-serif"><b>Yan's Cuisine</b><br>83 Benevolent St., Providence, RI 02906<br>Phone: (401) 751 - 8888</p>
+                </div>
+                <div style="margin-left:auto; margin-right:auto;">
+                    <p style="font-family: sans-serif"><b>Hours of operation:</b><br>Mon - Sat: 11am - 9:15pm<br>Sunday: 12pm - 9:30pm</p>
+                </div>
+                <img style="width: 285px; height:45px; margin-right:50px;" src="CardPayment.png">
+            </div>
+        </div>
+    </body>
+</html>
